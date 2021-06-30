@@ -34,6 +34,7 @@ header {
 header h1 {
   text-align: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding-top: 7px;
 }
 
 header ul {
@@ -252,7 +253,7 @@ header li {
 mainvisual
 ----------- */
 #mainvisual h2 {
-  font-size: 2.7rem;
+  display: none;
 }
 
 /* -------
