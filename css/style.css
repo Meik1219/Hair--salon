@@ -25,20 +25,21 @@ a {
 header
 ------------- */
 header {
-  height: 80px;
   align-items: center;
   background-color: black;
   color: white;
 }
-
+header img {
+  width: 20%;
+}
 header h1 {
   text-align: center;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   padding-top: 7px;
 }
 
 header ul {
   text-align: center;
+  padding-bottom: 20px;
 }
 
 header li {
@@ -68,17 +69,6 @@ mainvisual
 #mainvisual img {
   height: 670px;
   object-fit: cover;
-}
-
-#mainvisual h2 {
-  position: absolute;
-  color: antiquewhite;
-  top: 50%;
-  left: 50%;
-  font-size: 6rem;
-  color: rgba(218, 241, 8, 0.952);
-  opacity: 0.5;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 /* ---------
@@ -234,7 +224,7 @@ sp
 header
 ------- */
 header {
-  height: 90px;
+  height: 120px;
 }
 header ul {
   display: flex;
@@ -248,12 +238,6 @@ header li {
   margin-left: 0;
   margin-bottom: 3px;
   font-size: 0.73rem;
-}
-/* -----
-mainvisual
------------ */
-#mainvisual h2 {
-  display: none;
 }
 
 /* -------
